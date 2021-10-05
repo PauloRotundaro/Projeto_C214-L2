@@ -1,8 +1,7 @@
 # C214-L2
-Projeto em desenvolvimento o laboratório de Engenharia de Software
+Projeto em desenvolvimento para o laboratório da matéria de Engenharia de Software.
 
 # Equipe
-Nossa equipe é formada pelos alunos:
 Ana Luiza Terra
 Leonardo Brandão
 Paulo Rotundaro
