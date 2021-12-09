@@ -17,7 +17,21 @@ class _HomeState extends State<Home> {
       ),
       body: Container(
         child: Column(
-
+          children: [
+            Padding(
+              padding: EdgeInsets.only(bottom: 32),
+              child: Image.asset("imagens/logo.png"),
+            ),
+            Padding(
+              padding: EdgeInsets.only(bottom: 10),
+              child: Text("Saiba qual a melhor opção para o abastecimento do seu carro!"),
+            ),
+            TextField(),
+            TextField(),
+            Padding(
+              padding: EdgeInsets.only(top: 10)
+              ,),
+          ],
         ),
       ),
     );
