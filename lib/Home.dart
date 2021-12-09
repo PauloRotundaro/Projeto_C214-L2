@@ -34,7 +34,15 @@ class _HomeState extends State<Home> {
       }
     }
 
+    _limparCampos();
+
   }
+
+  void _limparCampos(){
+    _controllerGasolina.text = "";
+    _controllerAlcool.text = "";
+  }
+
 
   @override
   Widget build(BuildContext context) {
