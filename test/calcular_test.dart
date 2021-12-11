@@ -7,6 +7,18 @@ void main(){
     double? precoGasolina = 7.8;
     String _textoResultado = "";
 
+    test('Preço do álcool é nulo', () {
+      assert(precoAlcool == null);
+    });
+
+    test('Preço da gasolina é nulo', () {
+      assert(precoGasolina == null);
+    });
+    
+    test('Preço da gasolina é o dobro do preço do álcool', () {
+      assert(precoGasolina == 2*precoAlcool);
+    });
+
     test('Preço do álcool é um número positivo válido', () {
       assert(precoAlcool != null && precoAlcool >= 0);
     });
