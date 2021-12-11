@@ -10,6 +10,7 @@
    - [Android Studio](#android-studio)
    - [Flutter Doctor](#flutter-doctor)
    - [Licenças do Android](#concordar-com-as-licenças-do-android)
+   - [Vídeos tutoriais](#para-facilitar)
 - [Testes](#testes-%EF%B8%8F%EF%B8%8F)
 - [Arquivos](#arquivos-open_file_folder)
 
