@@ -28,7 +28,7 @@
 
 # Instalação
 
-⚙️ Se você entende um pouco de inglês, e quer ler a documentação oficial de instalação do Flutter para <a href="https://docs.flutter.dev/get-started/install/windows">Windows</a>, <a href="https://docs.flutter.dev/get-started/install/macos">MacOS</a>, <a href="https://docs.flutter.dev/get-started/install/linux">Linux</a> e <a href="https://docs.flutter.dev/get-started/install/chromeos">ChromeOS</a>, basta <a href="https://docs.flutter.dev/get-started/install"/>clicar aqui</a>.![145679567-3875b966-4677-4482-8a80-371ce10f9519](https://user-images.githubusercontent.com/58473930/145692604-10cbae03-3fda-4cb1-afe4-1a6fdf792790.png)
+⚙️ Se você entende um pouco de inglês, e quer ler a documentação oficial de instalação do Flutter para <a href="https://docs.flutter.dev/get-started/install/windows">Windows</a>, <a href="https://docs.flutter.dev/get-started/install/macos">MacOS</a>, <a href="https://docs.flutter.dev/get-started/install/linux">Linux</a> e <a href="https://docs.flutter.dev/get-started/install/chromeos">ChromeOS</a>, basta <a href="https://docs.flutter.dev/get-started/install"/>clicar aqui</a>
 
 Mas não se preocupe, o processo de instalação é simples, e vamos te passar o passo a passo aqui em baixo. ⬇️ 😄
 
