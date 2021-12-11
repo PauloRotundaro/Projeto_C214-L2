@@ -48,13 +48,15 @@ Extraia o arquivo zip e coloque a pasta flutter em um local apropriado de instal
 
 ### Flutter Doctor
 Em um console que entendo o comando **flutter**, rode o comando
-bash
+```bash
 flutter doctor
+```
 
 Este comando verifica seu ambiente e exibe um relatório do status da instalação do Flutter. </br>
 Se o Flutter não conseguir localizá-lo, execute o código abaixo para definir o diretório em que o Android Studio está instalado.
-bash
+```bash
 flutter config --android-studio-dir <directory>
+```
 
 ⚠️ *Verifique a saída com cuidado para observar eventuais erros/problemas.* ⚠️
 
@@ -66,5 +68,6 @@ Antes de usar o Flutter, você deve concordar com as licenças da plataforma And
 ⚠️As versões 2.2 ou superiores do Android Studio já vêm com um JDK.
 
 * Abra um console e execute o seguinte comando
-bash
+```bash
 flutter doctor --android-licenses
+```
