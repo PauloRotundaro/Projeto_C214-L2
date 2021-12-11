@@ -24,11 +24,11 @@ void main() {
   });
 
   group('HomeController Test', () {
-    test("First Test", () {
+    test("First test: instance", () {
       expect(mock, isInstanceOf<Controller>());
     });
 
-    test('Teste response gasolina', () async {
+    test('Test is Gasoline', () async {
       when(dio.get(any, options: anyNamed('options'))).thenAnswer(
         (_) async => Response(
           data: jsonDecode(dataMock),
@@ -41,7 +41,7 @@ void main() {
       });
     });
 
-    test('Teste response alcool', () async {
+    test('Test is Alcohol', () async {
       when(dio.get(any, options: anyNamed('options'))).thenAnswer(
         (_) async => Response(
           data: jsonDecode(dataMock),
