@@ -11,7 +11,11 @@ class Controller {
     if (key.currentState.validate()) {
       double precoAlcool = double.parse(controllerAlcool.text);
       double precoGasolina = double.parse(controllerGasolina.text);
-      result = precoAlcool / precoGasolina;
+      if (precoGasolina == null || precoAlcool == null) {
+        result = 0.0;
+      } else {
+        result = precoAlcool / precoGasolina;
+      }
 
       _limparCampos();
     }
