@@ -70,13 +70,18 @@ class _HomeState extends State<Home> {
                   child: ElevatedButton(
                     onPressed: () {
                       _controller.calcular();
-                      if (_controller.result >= 0.7) {
+                      if (_controller.result == 0.0) {
                         setState(() {
-                          _textoResultado = "Melhor abastecer com Gasolina";
+                          _textoResultado =
+                              "Dados inválidos. Preencha os campos corretamente!";
+                        });
+                      } else if (_controller.result >= 0.7) {
+                        setState(() {
+                          _textoResultado = "Melhor abastecer com gasolina :)";
                         });
                       } else {
                         setState(() {
-                          _textoResultado = "Melhor abastecer com Alcool";
+                          _textoResultado = "Melhor abastecer com álcool :)";
                         });
                       }
                     },
