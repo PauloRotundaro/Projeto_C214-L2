@@ -8,10 +8,17 @@ class Controller {
   var result = 0.0;
 
   void calcular() {
-    if (key.currentState!.validate()) {
+    if (key.currentState.validate()) {
       double precoAlcool = double.parse(controllerAlcool.text);
       double precoGasolina = double.parse(controllerGasolina.text);
       result = precoAlcool / precoGasolina;
+
+      _limparCampos();
     }
+  }
+
+  void _limparCampos() {
+    controllerAlcool.clear();
+    controllerGasolina.clear();
   }
 }

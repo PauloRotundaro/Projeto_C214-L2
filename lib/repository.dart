@@ -1,8 +1,7 @@
-import 'package:AlcoolOuGasolina/controller.dart';
 import 'package:dio/dio.dart';
 
 class Repository {
-  late Dio dio;
+  Dio dio;
   Repository(this.dio);
 
   Future<List<CombustivelModel>> getData() async {
@@ -15,8 +14,8 @@ class Repository {
 }
 
 class CombustivelModel {
-  final String? name;
-  final double? value;
+  final String name;
+  final double value;
 
   CombustivelModel({this.name, this.value});
 
