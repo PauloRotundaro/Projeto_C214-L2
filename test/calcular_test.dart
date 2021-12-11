@@ -1,10 +1,10 @@
 import 'package:test/test.dart';
 
-void main(){
+void main() {
   //Função void Calcular
 
-    double? precoAlcool = 4.3;
-    double? precoGasolina = 7.8;
+    double precoAlcool = 4.3;
+    double precoGasolina = 7.8;
     String _textoResultado = "";
 
     test('Preço do álcool é nulo', () {
@@ -46,5 +46,5 @@ void main(){
         _textoResultado = "Melhor abastecer com ALCOOL!";
       }
     }
-
+  }
 }
