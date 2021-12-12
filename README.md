@@ -94,7 +94,7 @@ Abaixo, seguem links de dois vídeos, feitos pelo monitor Leonardo de Souza da m
 O comando abaixo roda todos os arquivos teste do projeto que mantenham o padrão (test_ ou _test)
 
 ```bash
-flutter test -
+flutter test
 ```
 Para rodar todos os arquivos teste contornando o problema de valor nulo: 
 
