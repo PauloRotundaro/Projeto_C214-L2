@@ -26,7 +26,8 @@
 * 👦 Paulo Rotundaro
 
 # Framework
-🧑‍💻 O projeto foi feito utilizando do <a href="https://flutter.dev/?gclid=CjwKCAjwkvWKBhB4EiwA-GHjFop1Q7OVUEWgTx3fWIRhxP0oBNPxVinR1dKDmdGhOtGIbLb2sQL8SBoCLtUQAvD_BwE&gclsrc=aw.ds">Flutter</a>, framework que foi utilizado nas aulas com o monitor Leonardo.
+🧑‍💻 O projeto foi feito utilizando do <a href="https://flutter.dev/?gclid=CjwKCAjwkvWKBhB4EiwA-GHjFop1Q7OVUEWgTx3fWIRhxP0oBNPxVinR1dKDmdGhOtGIbLb2sQL8SBoCLtUQAvD_BwE&gclsrc=aw.ds">Flutter</a>, framework que foi utilizado nas aulas com o monitor Leonardo. </br>
+⚠️ A versão utilizada nesse projeto é a 1.22.6.
 
 # Instalação
 
@@ -46,7 +47,8 @@ Extraia o arquivo zip e coloque a pasta flutter em um local apropriado de instal
 ### Variável de ambiente
 📝 Se você desejar executar comandos Flutter pelo console do windows, precisa configurar uma variável para o Flutter às suas <a href="https://www.java.com/pt-BR/download/help/path_pt-br.html">variáveis de ambiente</a>
 * Na barra de pesquisa do windows, procure por 'env' e selecione "Editar variáveis de ambiente do sistema"
-* Em 'Variáveis de Ambiente', verifique se há uma entrada chamada PATH. Se a entrada existir, anexe à ela o caminho completo para seu "flutter\bin" (use ; como separador dos valores já existentes), se não existir cria uma variável nomeada "Path" e anexe à ela o caminho completo para seu "flutter\bin".
+* Em 'Variáveis de Ambiente', verifique se há uma entrada chamada PATH. Se a entrada existir, anexe à ela o caminho completo para seu "flutter\bin" (use ; como separador dos valores já existentes).</br>
+Se não existir, crie uma variável nomeada "Path" e anexe à ela o caminho completo para seu "flutter\bin".
 
 ### Android Studio
 
