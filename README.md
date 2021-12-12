@@ -94,7 +94,7 @@ A aplicação possui uma interface intuitiva e amigável. Ao clicar no campo em 
 
 ![image](https://user-images.githubusercontent.com/85133838/145716277-d36d1638-9fe8-4d2c-b9c9-b62895c59bf2.png)
 
-A entrada de dados deve ser feita com números que tenham ponto e duas casas decimais (*ex: 3.59*). Qualquer entrada que não siga esse formato não terá sucesso na execução da tarefa, então, a aplicação envia uma mensagem de erro ao usuário:
+A entrada de dados deve ser feita com números que tenham ponto e duas casas decimais (*ex: 3.59*). Qualquer entrada que não siga esse formato descrito no label não terá sucesso na execução da tarefa, então, a aplicação envia uma mensagem de erro ao usuário:
 
 ![image](https://user-images.githubusercontent.com/85133838/145716333-10a449f4-1bd1-4c58-9dba-e46ebbcf26fb.png)
 
@@ -102,4 +102,11 @@ Caso um ou ambos os campos de entrada não sejam preenchidos (*null*), será env
 
 ![image](https://user-images.githubusercontent.com/85133838/145716591-168e0831-66c8-445b-ac65-7c904268c328.png)
 
+Para que a aplicação faça o cálculo de qual combustível é a melhor opção para o seu carro, a entrada deve apresentar o seguinte formato: 
+
+![image](https://user-images.githubusercontent.com/85133838/145716961-997cbbec-dce0-437a-9da7-2e28de22b33f.png)
+
+Com os dados inseridos, o usuário deverá clicar no botão ***Calcular*** para que a aplicação compare os preços do álcool e da gasolina, enviando logo em seguida a mensagem com a melhor opção para abastecer seu veículo: 
+
+![image](https://user-images.githubusercontent.com/85133838/145717089-14e2dc5a-d5ae-40e2-ab84-c3fd79f8b92c.png)
 
