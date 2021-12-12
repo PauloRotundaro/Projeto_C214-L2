@@ -28,7 +28,7 @@ void main() {
       expect(mock, isInstanceOf<Controller>());
     });
 
-    test('Test is Gasoline', () async {
+    test('Is Gasoline', () async {
       when(dio.get(any, options: anyNamed('options'))).thenAnswer(
         (_) async => Response(
           data: jsonDecode(dataMock),
@@ -41,7 +41,7 @@ void main() {
       });
     });
 
-    test('Test is Alcohol', () async {
+    test('Is Alcohol', () async {
       when(dio.get(any, options: anyNamed('options'))).thenAnswer(
         (_) async => Response(
           data: jsonDecode(dataMock),
