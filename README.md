@@ -89,3 +89,17 @@ Abaixo, seguem links de dois vídeos, feitos pelo monitor Leonardo de Souza da m
 * <a href="https://www.youtube.com/watch?v=x7gU01USeis">Como usar o seu celular no desenvolvimento Flutter</a>
 
 ### Utilizando a aplicação 
+
+A aplicação possui uma interface intuitiva e amigável. Ao clicar no campo em que você vai inserir a informação, esse obtém destaque sob o outro que não está sendo utilizado no momento. Assim, o usuário não se perde durante a entrada de dados.
+
+![image](https://user-images.githubusercontent.com/85133838/145716277-d36d1638-9fe8-4d2c-b9c9-b62895c59bf2.png)
+
+A entrada de dados deve ser feita com números que tenham ponto e duas casas decimais (*ex: 3.59*). Qualquer entrada que não siga esse formato não terá sucesso na execução da tarefa, então, a aplicação envia uma mensagem de erro ao usuário:
+
+![image](https://user-images.githubusercontent.com/85133838/145716333-10a449f4-1bd1-4c58-9dba-e46ebbcf26fb.png)
+
+Caso um ou ambos os campos de entrada não sejam preenchidos (*null*), será enviada a mensagem de erro, mostrando também quais são os campos que estão vazios: 
+
+![image](https://user-images.githubusercontent.com/85133838/145716591-168e0831-66c8-445b-ac65-7c904268c328.png)
+
+
