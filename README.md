@@ -13,7 +13,8 @@
    - [Flutter Doctor](#flutter-doctor)
    - [Licenças do Android](#concordar-com-as-licenças-do-android)
    - [Vídeos tutoriais(Para facilitar)](#para-facilitar)
-- [Testes](#testes-%EF%B8%8F%EF%B8%8F)
+- [Testes](#testes)
+   - [Comandos de teste](#pré-requisitos)
 - [Arquivos](#arquivos-open_file_folder)
 - [Utilizando a aplicação](#utilizando-a-aplicação)
 
@@ -87,6 +88,19 @@ Abaixo, seguem links de dois vídeos, feitos pelo monitor Leonardo de Souza da m
 
 * <a href="https://www.youtube.com/watch?v=xC14BiwajWI">Instalação do Flutter no Windows</a>
 * <a href="https://www.youtube.com/watch?v=x7gU01USeis">Como usar o seu celular no desenvolvimento Flutter</a>
+
+### Comandos de teste
+
+O comando abaixo roda todos os arquivos teste do projeto que mantenham o padrão (test_ ou _test)
+
+```bash
+flutter test -
+```
+Para rodar todos os arquivos teste contornando o problema de valor nulo: 
+
+```bash
+flutter test --no-sound-null-safety 
+```
 
 ### Utilizando a aplicação 
 
