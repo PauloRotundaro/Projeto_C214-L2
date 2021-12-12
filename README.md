@@ -1,4 +1,4 @@
-[![Flutter CI](https://github.com/PauloRotundaro/Projeto_C214-L2/actions/workflows/flutter.yml/badge.svg)](https://github.com/PauloRotundaro/Projeto_C214-L2/actions/workflows/flutter.yml)
+[![CI](https://github.com/PauloRotundaro/Projeto_C214-L2/actions/workflows/flutter.yml/badge.svg)](https://github.com/PauloRotundaro/Projeto_C214-L2/actions/workflows/flutter.yml)
 
 <h1 align="center"> Hello, dev!🤓💻 </h1>
 
