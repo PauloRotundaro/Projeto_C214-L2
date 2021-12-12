@@ -15,6 +15,7 @@
    - [Vídeos tutoriais(Para facilitar)](#para-facilitar)
 - [Testes](#testes-%EF%B8%8F%EF%B8%8F)
 - [Arquivos](#arquivos-open_file_folder)
+- [Utilizando a aplicação](#utilizando-a-aplicação)
 
 # O Projeto 📈
 ![logo](https://user-images.githubusercontent.com/58473930/145679567-3875b966-4677-4482-8a80-371ce10f9519.png) </br>
@@ -86,3 +87,5 @@ Abaixo, seguem links de dois vídeos, feitos pelo monitor Leonardo de Souza da m
 
 * <a href="https://www.youtube.com/watch?v=xC14BiwajWI">Instalação do Flutter no Windows</a>
 * <a href="https://www.youtube.com/watch?v=x7gU01USeis">Como usar o seu celular no desenvolvimento Flutter</a>
+
+### Utilizando a aplicação 
